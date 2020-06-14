@@ -4265,3 +4265,20 @@ section{
 	.card:nth-child(4){
 		animation: fadeIn .5s .2s backwards;
 	}
+
+	.col{
+		margin: 2rem;
+		transition: transform .5s;
+	}
+
+	.col:hover{
+		transform: scale(1.1);
+	}
+
+	#header > .logo{
+		transition: transform .5s;
+	}
+
+	#header > .logo:hover{
+		transform: scale(1.1);
+	}
